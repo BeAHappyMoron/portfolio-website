@@ -1,0 +1,62 @@
+.about-content {
+  position: relative;
+  z-index: 1;
+  /* keeps text above canvas */
+}
+
+.about-section {
+  min-height: 65vh;
+  width: 100%;
+  left: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  align-items: flex-start;
+  padding: 40px 100px;
+  color: white;
+  overflow: visible; 
+}
+
+.about-subtitle {
+  font-size: clamp(1.5rem, 6vw, 45px);
+  left: 350px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  margin-top: 130px;
+  color: #0cc0df;
+  margin-bottom: 35px;
+}
+
+.about-title {
+  font-size: 25px;
+  margin: 0;
+  font-family: 'Poppins';
+  letter-spacing: 0.04ch;
+  line-height: 1.35;
+}
+
+.about-text-image {
+  display: flex;
+  gap: 40px; /* spacing between text and image */
+  align-items: flex-center; /* align image to top of text */
+}
+
+.about-image {
+  width: 460px;       
+  height: 350px;      /* make sure width = height */
+  border-radius: 50%;  
+  object-fit: cover;  /* ensures the image fills the circle without stretching */
+  background: linear-gradient(135deg, #7f00ff, #0cc0df, #ff00c8, #0077ff);
+  background-size: 400% 400%;
+  margin-top: 200px;
+  margin-right: 250px;
+  animation: gradientShift 6s ease infinite;
+}
+
+/* gradient animation */
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
