@@ -83,7 +83,7 @@ const Hero = () => {
       <canvas id="hero-bg" className="hero-bg"></canvas>
 
       <div className='hero-content'>
-        <h4 className='hero-subtitle'>HEY YOU, I AM</h4>
+        <h4 className='hero-subtitle'>&lt;hey you, i am /&gt;</h4>
         <h1 
           ref={titleRef} 
           className={`hero-title ${rotate ? "rotate" : ""}`}

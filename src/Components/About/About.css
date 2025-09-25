@@ -5,7 +5,7 @@
 }
 
 .about-section {
-  min-height: 65vh;
+  min-height: 95vh;
   width: 100%;
   left: 250px;
   position: relative;
@@ -18,22 +18,42 @@
   overflow: visible; 
 }
 
-.about-subtitle {
-  font-size: clamp(1.5rem, 6vw, 45px);
+
+.about-title {
+  font-size: clamp(1.5rem, 6vw, 30px);
+  font-family: 'Courier New', Courier, monospace;
   left: 350px;
-  font-family: 'Poppins';
+  text-transform: lowercase;
   font-weight: 400;
   margin-top: 130px;
   color: #0cc0df;
+}
+
+.about-subtitle {
+  font-size: 15px;
+  margin: 0;
+  font-family: 'Poppins';
+  text-transform: uppercase;
+  color: lightgray;
+  letter-spacing: 0.04ch;
   margin-bottom: 35px;
 }
 
-.about-title {
-  font-size: 25px;
+.about-text {
+  font-size: 24px;
   margin: 0;
   font-family: 'Poppins';
   letter-spacing: 0.04ch;
   line-height: 1.35;
+}
+
+.about-subtext {
+  font-size: 15px;
+  margin: 0;
+  font-family: 'Poppins';
+  color: lightgray;
+  letter-spacing: 0.04ch;
+  margin-bottom: 35px;
 }
 
 .about-text-image {
@@ -43,7 +63,7 @@
 }
 
 .about-image {
-  width: 460px;       
+  width: 730px;       
   height: 350px;      /* make sure width = height */
   border-radius: 50%;  
   object-fit: cover;  /* ensures the image fills the circle without stretching */

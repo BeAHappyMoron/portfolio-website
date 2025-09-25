@@ -81,6 +81,7 @@ body::-webkit-scrollbar {
   background: linear-gradient(135deg, #7f00ff, #0cc0df, #ff00c8, #0077ff);
   background-size: 400% 400%;
   padding: 0px 5px;
+  color: white;
 }
 
 .nav-link {

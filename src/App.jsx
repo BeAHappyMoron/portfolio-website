@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
 import "./index.css";
+import Skills from "./Components/Skills/Skills";
 
 const App = () => {
   const [darkBg, setDarkBg] = useState(false);
@@ -33,6 +34,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <About />
+        <Skills/>
     </div>
 
   );
